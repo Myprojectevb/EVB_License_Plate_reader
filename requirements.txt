@@ -1,0 +1,26 @@
+# EVBuddy Charger 2.0 - Complete Dependencies
+# Core GUI and Application Framework
+PyQt5>=5.15.0
+PyQtWebEngine
+# tkinter is built-in to Python, no need to install via pip
+
+# Computer Vision and Image Processing
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0  # For additional OpenCV modules
+face-recognition>=1.3.0
+Pillow>=8.0.0
+
+# Numerical Computing
+numpy>=1.21.0
+
+# Network and Communication
+requests>=2.25.0
+websockets>=10.0
+
+# OCPP (Open Charge Point Protocol)
+ocpp>=0.20.0
+
+# Additional dependencies that may be needed
+# These are dependencies of the above packages but listed for clarity
+cmake>=3.18.0  # Required for some OpenCV builds
+dlib>=19.22.0  # Required for face_recognition 
