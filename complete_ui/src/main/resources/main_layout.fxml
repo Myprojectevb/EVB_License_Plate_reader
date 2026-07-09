@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.MainController" fx:id="root"
+      spacing="30" alignment="CENTER" style="-fx-background-color: white;" prefWidth="600" prefHeight="1200">
+    <!-- Ad Card (centered) -->
+    <VBox alignment="CENTER" prefWidth="600" prefHeight="900" VBox.vgrow="ALWAYS">
+        <StackPane fx:id="adBox"
+                   prefWidth="540" prefHeight="350"
+                   maxWidth="540" maxHeight="350"
+                   style="-fx-background-color: white; -fx-background-radius: 24; -fx-padding: 32; -fx-border-color: #3bb3a6; -fx-border-width: 3; -fx-border-radius: 24;">
+            <Label text="AD"
+                   style="-fx-background-color: #FFD700; -fx-background-radius: 8; -fx-padding: 8 16; -fx-font-weight: bold; -fx-text-fill: black;"
+                   alignment="CENTER" prefWidth="60" prefHeight="30"
+                   StackPane.alignment="BOTTOM_RIGHT">
+                <StackPane.margin>
+                    <javafx.geometry.Insets right="12" bottom="12"/>
+                </StackPane.margin>
+            </Label>
+        </StackPane>
+    </VBox>
+</VBox> 

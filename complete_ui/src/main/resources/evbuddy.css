@@ -1,0 +1,15 @@
+/* evbuddy.css - JavaFX styling for EV Buddy UI */
+
+.root {
+    -fx-background-color: #232323;
+}
+
+.label {
+    -fx-font-family: 'Inter', 'Arial', sans-serif;
+}
+
+.button, .ad-badge {
+    -fx-background-radius: 8;
+}
+
+/* Add more styles as needed for fine-tuning */ 
